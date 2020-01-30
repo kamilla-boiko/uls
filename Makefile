@@ -4,11 +4,13 @@ CFLAGS = -std=c11 -Wall -Wextra -Wpedantic -Werror
 
 INC = uls.h
 
-SRC = main.c\
-mx_parsing.c\
+SRC = main.c \
+mx_parsing.c \
+mx_usage_error.c \
 
-OBJ = main.o\
-mx_parsing.o\
+OBJ = main.o \
+mx_parsing.o \
+mx_usage_error.c \
 
 all: install clean
 

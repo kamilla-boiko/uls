@@ -4,8 +4,11 @@
 #include "libmx/inc/libmx.h"
 #include <dirent.h>
 #include <sys/types.h>
-#include <string.h> 
+#include <errno.h>
+#include <string.h>
+#include <stdio.h>
 
-void mx_parsing(int argc, char **argv);
+t_list **mx_parsing(int i, int argc, char **argv);
+t_list **mx_usage_error(int argc, char **argv);
 
 #endif
