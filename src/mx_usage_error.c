@@ -5,6 +5,7 @@ static bool search_flag(char *str, char flag);
 t_list **mx_usage_error(int argc, char **argv) {
     int i = 1; 
     char *lsFlags = mx_strnew(3);
+    //t_list trueFlags = NULL;
 
     lsFlags = "laf";
     for (; argv[i][0] == '-'; i++) {

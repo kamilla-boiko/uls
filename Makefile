@@ -10,7 +10,7 @@ mx_usage_error.c \
 
 OBJ = main.o \
 mx_parsing.o \
-mx_usage_error.c \
+mx_usage_error.o \
 
 all: install clean
 
