@@ -7,10 +7,12 @@ INC = uls.h
 SRC = main.c \
 mx_parsing.c \
 mx_usage_error.c \
+mx_select_flags.c \
 
 OBJ = main.o \
 mx_parsing.o \
 mx_usage_error.o \
+mx_select_flags.o \
 
 all: install clean
 
