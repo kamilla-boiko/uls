@@ -31,7 +31,7 @@ typedef struct s_flags {
     int S;
 } t_flags;
 
-t_list **mx_parsing(int i, int argc, char **argv);
+t_list **mx_parsing(int i, int argc, char **argv, t_flags *trueFlags);
 t_list **mx_usage_error(int argc, char **argv);
 void mx_select_flags(t_flags *trueFlags, char flag);
 
