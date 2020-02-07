@@ -84,5 +84,6 @@ void mx_swap_str(char **s1, char **s2);
 int mx_strlen_my(const char *s, char c);
 bool mx_isdigit(char c);
 bool mx_isalpha(char c);
+int mx_get_index(char *str, char flag);
 
 #endif

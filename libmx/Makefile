@@ -66,6 +66,7 @@ SRC = ./mx_printchar.c \
 ./mx_isalpha.c \
 ./mx_swap_str.c \
 ./mx_strlen_my.c \
+./get_index.c \
 
 SRCS = ./src/mx_printchar.c \
 ./src/mx_print_unicode.c \
@@ -130,6 +131,7 @@ SRCS = ./src/mx_printchar.c \
 ./src/mx_isalpha.c \
 ./src/mx_swap_str.c \
 ./src/mx_strlen_my.c \
+./src/get_index.c \
 
 OBJ = ./mx_printchar.o \
 ./mx_print_unicode.o \
@@ -194,6 +196,7 @@ OBJ = ./mx_printchar.o \
 ./mx_isalpha.o \
 ./mx_swap_str.o \
 ./mx_strlen_my.o \
+./get_index.o \
 
 OBJO = ./obj/mx_printchar.o \
 ./obj/mx_print_unicode.o \
@@ -258,6 +261,7 @@ OBJO = ./obj/mx_printchar.o \
 ./obj/mx_isalpha.o \
 ./obj/mx_swap_str.o \
 ./obj/mx_strlen_my.o \
+./obj/get_index.o \
 
 CFLGS = -std=c11 -Wall -Wextra -Wpedantic -Werror 
 

@@ -5,14 +5,16 @@ CFLAGS = -std=c11 -Wall -Wextra -Wpedantic -Werror
 INC = uls.h
 
 SRC = main.c \
-mx_parsing.c \
-mx_usage_error.c \
-mx_select_flags.c \
+parsing.c \
+usage_error.c \
+select_flags.c \
+check_flags.c \
 
 OBJ = main.o \
-mx_parsing.o \
-mx_usage_error.o \
-mx_select_flags.o \
+parsing.o \
+usage_error.o \
+select_flags.o \
+check_flags.o \
 
 all: install clean
 
