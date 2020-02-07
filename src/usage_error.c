@@ -33,22 +33,22 @@ static void create_matrix_of_flags(t_flags *true_flags) {
     true_flags->f = 0;
     true_flags->l = 0;
     true_flags->one = 0;
-    true_flags->R = 0;
-    true_flags->A = 0;
-    true_flags->G = 0;
+    true_flags->big_r = 0;
+    true_flags->big_a = 0;
+    true_flags->big_g = 0;
     true_flags->h = 0;
     true_flags->dog = 0;
     true_flags->e = 0;
-    true_flags->T = 0;
-    true_flags->C = 0;
-    true_flags->F = 0;
+    true_flags->big_t = 0;
+    true_flags->big_c = 0;
+    true_flags->big_f = 0;
     true_flags->m = 0;
     true_flags->p = 0;
     true_flags->r = 0;
     true_flags->t = 0;
     true_flags->u = 0;
     true_flags->c = 0;
-    true_flags->S = 0;
+    true_flags->big_s = 0;
 }
 
 static void print_usage_error(char **argv, int i, int k) {
